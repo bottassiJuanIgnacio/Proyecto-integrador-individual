@@ -1,0 +1,14 @@
+/*Estilos footer*/
+footer div i{
+    color: blue;    
+}
+footer article{
+    text-align: center;
+}
+.icon-footer{
+    size: 2em;
+    margin-bottom: 10px;
+}
+article{
+    margin:10px;
+}

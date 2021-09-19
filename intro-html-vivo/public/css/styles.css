@@ -1,42 +1,11 @@
-/*Estilos generales*/
-*{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    font-size: 12px;
-}
-/*Estilos header*/
-.header{
-    background-color: #EAC926;;
-}
-.search-bar{
-    width: 300px;
-    height: 15px;
-    background-color: white;
-    border:  solid 0.5px black;
-}
-
-.header nav ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.burger-menu{
-    margin-left: 50%;
-    padding: 10px;
-    border: solid blue;
-    margin-right: 45%;
-    background-color: blue;
-    color: white;
-}
-
-/*Titulares*/
+/* Estilos al main*/
 .h3-tamaño{
     font-size: 24px;
+
 }
 .precio{
     font-size: 18px;
+    
 }
 .descuento{
     font-size: 16px;
@@ -44,16 +13,44 @@ a{
 .descripcion{
     font-size: 16px;
 }
-
-/*Estilos footer*/
-footer div i{
-    color: blue;    
-}
-footer article{
+main{
     text-align: center;
+    width: 90vw;
+    background-color: #F4F2F2;
 }
-.icon-footer{
-    size: 2em;
-    margin-bottom: 10px;
+.fa-truck{
+    color: green;
 }
+
+.caja{
+    padding: 5px;
+    border: solid 2px #ebebeb;
+    background-color: white;
+}
+.caja-hija{
+    border: 15px;
+}
+.truck{
+    border-top: 1px solid #ebebeb;
+}
+.descripcion{
+    display: none;
+}
+.site{
+    display: none;
+}
+.login{
+   display: none;
+}
+.precio-descuento{
+    display: flex;
+    text-align: left;
+}
+.precio-descuento .precio{
+    width: 30%;
+}
+.precio-descuento .descuento{
+    width: 70%;
+}
+
 
