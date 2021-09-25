@@ -16,6 +16,36 @@
     .burger-menu{
         display: none;
     }
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .products article{
+        width: 45%;
+    }
+    .padre{
+        display: flex;
+    }
+    .compra{
+        width: 50%;
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+    }
+    .navs{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navs ul{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin: 5px;
+    }
+    .navs ul li{
+        padding: 2px;
+        margin: 2px;    
+    }
 }
 
 @media (min-width:769px) {
@@ -25,6 +55,13 @@
     }
     .login{
         display: block;
+    }
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .products article{
+        width: 17%;
     }
     
 }

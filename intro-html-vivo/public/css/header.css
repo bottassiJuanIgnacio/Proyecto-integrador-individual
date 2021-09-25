@@ -4,7 +4,6 @@
     background-color: #EAC926;;
 }
 .search-bar{
-    width: 50%;
     height: 15px;
     background-color: white;
     border:  solid 0.5px black;
@@ -26,3 +25,13 @@ a{
     color: white;
     text-align: center;
 }
+.logo-search{
+    display: flex;
+
+}
+.logo-search .logo, .logo-search .search-bar{
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+

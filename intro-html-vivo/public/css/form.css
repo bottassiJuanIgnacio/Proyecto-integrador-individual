@@ -1,0 +1,21 @@
+/*Estilos registro de uri
+form {
+    margin: 15px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+.form-control label {
+    width: 100%;
+}
+.form-control input {
+    width: 100%;
+}*/
