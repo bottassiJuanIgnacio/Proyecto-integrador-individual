@@ -1,4 +1,5 @@
 /*Estilos footer*/
+
 .footer-home{
     background-color: white;
     display: flex;
@@ -20,6 +21,7 @@ article{
 .footer{
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 .no-center{
     text-align: initial;
@@ -47,4 +49,7 @@ article{
 }
 .fa-user-shield:hover {
     color: green;
+}
+footer{
+    background-color: white;
 }
