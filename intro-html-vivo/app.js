@@ -6,7 +6,7 @@ const app =  express();
 
 app.use(express.static(path.resolve(__dirname,"public")))
 
-app.listen(3000, () =>{
+app.listen(process.env.PORT || 3000, () =>{
     console.log("Nuestro puerto 3000 esta levantado");
 });
 
