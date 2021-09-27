@@ -1,4 +1,6 @@
-/*Estilos registro de uri
+/*Estilos registro de uri*/
+
+
 form {
     margin: 15px auto;
     width: 70%;
@@ -11,6 +13,7 @@ form {
     width: 100%;
     flex-direction: column;
     margin-bottom: 3px;
+    padding: 10px;
 }
 
 .form-control label {
@@ -18,4 +21,50 @@ form {
 }
 .form-control input {
     width: 100%;
-}*/
+}
+
+.enviar {
+    background-color: rgb(243, 229, 229);
+    border-radius: 5px;
+    padding: 5px;
+}
+.enviar:hover {
+    background-color: rgba(0, 204, 0, 0.5);
+    color: indigo;
+}
+
+.borrar {
+    background-color: rgba(85, 73, 248, 0.5);
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    background-color: lightyellow;
+}
+.enviar-login {
+    background-color: rgb(243, 229, 229);
+    border-radius: 5px;
+    padding: 5px;
+}
+.enviar-login:hover {
+    background-color: rgba(0, 204, 0, 0.5);
+    color: indigo;
+}
+.form-control-login {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 3px;
+    padding: 10px;
+}
+
+.form-control-login label {
+    width: 100%;
+}
+.form-control-login input {
+    width: 100%;
+}
+.login button{
+    margin-left: 10px;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="/css/general.css" rel="stylesheet">
+    <link href="/css/form.css" rel="stylesheet">
     <link href="/css/header.css" rel="stylesheet">
     <link href="/css/media.css" rel="stylesheet">
     <link href="/css/footer.css" rel="stylesheet">
@@ -13,30 +14,40 @@
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" >
-        <h1>Mercado Liebre</h1>
-        <p class="search-bar">
-        <div><i class="fas fa-search"></i></div>
-        </p>
-        <p>
-        <div> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</div>
-        </p>
-        <nav class="site">
-            <ul>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Tiendas Oficiales</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Ayuda</a></li>
-            </ul>
-        </nav>
-            <br>
-        <nav class="login">
-            <ul>
-                <li><a href="/register">Creá tu cuenta </a><i class="far fa-address-card"></i></li>
-                <li><a href="/login">Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
-                <li><a href="#">Mis compras </a><i class="fas fa-cart-arrow-down"></i></li>
-            </ul>
-        </nav>
+        <div class="padre">
+            <div class="logo-search">
+                <div>
+                    <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" >
+                </div>
+                
+                <form action="search" class="form-search">
+                    <input type="text" name="search" placeholder="Buscar productos, marcas y más">
+                    <i class="fas fa-search"></i>
+                </form>
+            </div>
+            <p><div class="compra"> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</div></p>
+        </div>
+        
+        
+        <div class="navs">
+            <nav class="site">
+                <ul>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </nav>
+                <br>
+            <nav class="login">
+                <ul>
+                    <li><a href="/register">Creá tu cuenta </a><i class="far fa-address-card"></i></li>
+                    <li><a href="/login">Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
+                    <li><a href="#">Mis compras </a><i class="fas fa-cart-arrow-down"></i></li>
+                </ul>
+            </nav>
+        </div>
+        
         <br>
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
@@ -47,16 +58,16 @@
         <form action="login" method="post">
             <div>
 
-                <div>
-                    <div>
+                <div class="login">
+                    <div class="form-control-login">
                         <label for="nombre">Nombre de usuario/a:</label>
                         <input type="text" name="nombre" id="nombre">
                     </div>
-                    <div>
+                    <div class="form-control-login">
                         <label for="password">Contraseña:</label>
                         <input type="password" name="password" id="password">
                     </div>
-                    <button type="submit" >Enviar</button>
+                    <button class="enviar-login" type="submit" >Enviar</button>
                 </div>
 
             </div>

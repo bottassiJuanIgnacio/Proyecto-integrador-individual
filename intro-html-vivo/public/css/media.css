@@ -24,13 +24,16 @@
         width: 45%;
     }
     .padre{
+        width: 100%;
         display: flex;
+        justify-content: space-between;
     }
     .compra{
         width: 50%;
         padding: 5px;
         margin: 10px;
         display: flex;
+        justify-content: right;
     }
     .navs{
         display: flex;
@@ -46,6 +49,7 @@
         padding: 2px;
         margin: 2px;    
     }
+
 }
 
 @media (min-width:769px) {
