@@ -8,7 +8,21 @@ form {
     flex-direction: column;
     align-items: center;
 }
-
+form .login{
+    margin: 100px auto;
+    border: solid 2px #EAC926;
+    
+    padding-bottom: 15px;
+}
+input{
+    border: solid 1px black;
+}
+input:focus{
+    border: solid 4px #EAC926;
+}
+input:hover{
+    border: solid 4px #EAC926;
+}
 .form-control {
     width: 100%;
     flex-direction: column;
@@ -24,17 +38,21 @@ form {
 }
 
 .enviar {
-    background-color: rgb(243, 229, 229);
+    background-color: whitesmoke;
     border-radius: 5px;
     padding: 5px;
 }
 .enviar:hover {
-    background-color: rgba(0, 204, 0, 0.5);
-    color: indigo;
+    background-color: rgb(0, 204, 0);
+    color: rgb(255, 253, 221);
 }
 
 .borrar {
-    background-color: rgba(85, 73, 248, 0.5);
+    background-color: whitesmoke;
+}
+.borrar:hover{
+    background-color: rgb(252, 62, 15);
+    color: white;
 }
 .button{
     display: flex;
@@ -47,10 +65,12 @@ body{
     background-color: rgb(243, 229, 229);
     border-radius: 5px;
     padding: 5px;
+    transition: background-color, color 450ms;
 }
 .enviar-login:hover {
-    background-color: rgba(0, 204, 0, 0.5);
-    color: indigo;
+    background-color: #0022AA;
+    color: rgb(243, 229, 229);
+    
 }
 .form-control-login {
     width: 100%;
@@ -60,10 +80,10 @@ body{
 }
 
 .form-control-login label {
-    width: 100%;
+    width: 80%;
 }
 .form-control-login input {
-    width: 100%;
+    width: 80%;
 }
 .login button{
     margin-left: 10px;

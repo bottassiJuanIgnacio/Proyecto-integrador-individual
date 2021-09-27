@@ -1,7 +1,8 @@
 
 /*Estilos header*/
 .header{
-    background-color: #EAC926;;
+    background-color: #EAC926;
+    width: auto;
 }
 .search-bar{
     height: 15px;
@@ -13,6 +14,9 @@
 }
 .header nav ul{
     list-style-type: none;
+}
+nav{
+    display: none;
 }
 a{
     text-decoration: none;

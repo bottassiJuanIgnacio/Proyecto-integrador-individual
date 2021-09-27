@@ -1,4 +1,9 @@
 /*Estilos footer*/
+.footer-home{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
 footer div i{
     color: blue;    
 }
@@ -11,4 +16,35 @@ footer article{
 }
 article{
     margin:10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.no-center{
+    text-align: initial;
+}
+.fa-credit-card{
+    color: rgba(24, 59, 255, 0.534);
+    font-size: 40px;
+    transition: color 450ms;
+}
+.fa-credit-card:hover {
+    color: green;
+}
+.fa-gift{
+    color: rgba(24, 59, 255, 0.534);
+    font-size: 40px;
+    transition: color 450ms;
+}
+.fa-gift:hover {
+    color: green;
+}
+.fa-user-shield{
+    color: rgba(24, 59, 255, 0.534);
+    font-size: 40px;
+    transition: color 450ms;
+}
+.fa-user-shield:hover {
+    color: green;
 }

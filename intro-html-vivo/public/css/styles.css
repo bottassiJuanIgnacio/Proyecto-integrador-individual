@@ -3,19 +3,23 @@
     font-size: 24px;
 
 }
+body{
+    width: auto;
+}
 .precio{
     font-size: 18px;
     
 }
 .descuento{
     font-size: 16px;
+    text-align: right;
 }
 .descripcion{
     font-size: 16px;
 }
 main{
     text-align: center;
-    width: 90vw;
+    width: auto;
     background-color: #F4F2F2;
 }
 .fa-truck{
