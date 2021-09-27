@@ -10,7 +10,7 @@ app.listen(process.env.PORT || 3000, () =>{
     console.log("Nuestro puerto 3000 esta levantado");
 });
 
-app.get('/home', (req,res)=>{
+app.get('/', (req,res)=>{
     res.sendFile(path.resolve(__dirname,"./views/home.html"))
 })
 
